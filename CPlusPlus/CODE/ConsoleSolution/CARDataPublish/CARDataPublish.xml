@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!--微机联锁冗余配置信息-->
+<CARDataPublish>
+	<!--代理侧：上游接受数据-->
+	<Upper ip="172.16.1.243" port="8813"/>
+	<!--日志配置-->
+	<Log path="C://log" log_size= "200" file_total_size = "2000"/>
+</CARDataPublish>
