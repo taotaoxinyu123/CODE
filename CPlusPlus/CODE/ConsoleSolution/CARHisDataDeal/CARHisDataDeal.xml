@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!--微机联锁冗余配置信息-->
+<CARHisDataDeal>
+	<!--代理侧：上游接受数据-->
+	<UpperRecv ip="172.16.1.208" port="8082"/>
+	<!--代理侧：上游发送数据-->
+	<UpperSend ip="172.16.1.208" port="8083"/>
+	<!--代理侧：下游第三方机-->
+	<Lower ip="127.0.0.1" port="9004"/>
+	<Client max_num="10"/>
+	<!--日志配置-->
+	<Log path="C://log" log_size= "200" file_total_size = "2000"/>
+</CARHisDataDeal>
